@@ -1,10 +1,6 @@
 import Repo from './repo';
 
 export default class Search {
-  static constitute() {
-    return [Repo];
-  }
-
   constructor(repo) {
     this.repo = repo;
   }
